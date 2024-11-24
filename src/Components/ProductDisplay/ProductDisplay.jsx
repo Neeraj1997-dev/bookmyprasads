@@ -50,7 +50,7 @@ const ProductDisplay = (props) => {
               addToCart(product.id);
             }}
           >
-            ADD TO CART
+            कार्ट में जोड़ें
           </button>
           <Link style={{ textDecoration: "none" }} to="/cart">
             <button
@@ -59,7 +59,7 @@ const ProductDisplay = (props) => {
                 addToCart(product.id);
               }}
             >
-              BUY NOW
+              अभी खरीदें
             </button>
           </Link>
         </div>
