@@ -3,7 +3,8 @@ import './Hero.css'
 import { Link } from 'react-router-dom'
 
 import arrow_icon from '../Assets/arrow.png'
-import prasad_img from '../Assets/prasad.jpg'
+//import prasad_img from '../Assets/prasad.jpg'
+import prasad_img from '../Assets/vaishno1.png'
 
 const Hero = () => {
   return (
