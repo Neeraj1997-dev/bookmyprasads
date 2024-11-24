@@ -1,20 +1,17 @@
-import React from 'react'
-import './NewsLetter.css'
+import React from "react";
+import "./NewsLetter.css";
 
 const NewsLetter = () => {
   return (
-    <div className='newsletter'>
-    <h1>Get Exclusive Offers On Your Email</h1>
-    <p>
-        Subscribe to our Newsletter and stay updated
-    </p>
-    <div>
-        <input type='email' placeholder='Your Email Id' />
-        <button>Subscribe</button>
+    <div className="newsletter">
+      <h1>अपने ईमेल पर विशेष प्रस्ताव प्राप्त करें।</h1>
+      <p>हमारे न्यूज़लेटर की सदस्यता लें और अपडेट रहें।</p>
+      <div>
+        <input type="email" placeholder="आपकी ईमेल आईडी" />
+        <button>सदस्य बनें</button>
+      </div>
     </div>
-      
-    </div>
-  )
-}
+  );
+};
 
-export default NewsLetter
+export default NewsLetter;

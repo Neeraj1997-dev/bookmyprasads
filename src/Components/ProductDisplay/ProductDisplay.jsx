@@ -1,13 +1,13 @@
-import React, { useContext } from 'react'
-import './ProductDisplay.css'
-import star_icon from '../Assets/star_icon.png'
-import star_dull_icon from '../Assets/star_dull_icon.png'
-import { ShopContext } from '../../Context/ShopContext'
-import { Link } from 'react-router-dom'
+import React, { useContext } from "react";
+import "./ProductDisplay.css";
+import star_icon from "../Assets/star_icon.png";
+import star_dull_icon from "../Assets/star_dull_icon.png";
+import { ShopContext } from "../../Context/ShopContext";
+import { Link } from "react-router-dom";
 
 const ProductDisplay = (props) => {
-    const{product}=props;
-    const{addToCart}=useContext(ShopContext);
+  const { product } = props;
+  const { addToCart } = useContext(ShopContext);
   return (
     <div className="productdisplay">
       <div className="productdisplay-left">
@@ -38,11 +38,11 @@ const ProductDisplay = (props) => {
           </div>
         </div>
         <div className="productdisplay-right-description">
-          Embark on a spiritual journey with our Divine Blessings Prasad
-          Collection. Carefully curated to echo the sacred ambiance of Vaishno
-          Devi, each offering radiates positive energy and symbolizes devotion.
-          Elevate your spiritual space and connect with the divine through these
-          sacred treasures.
+          हमारे दिव्य आशीर्वाद प्रसाद संग्रह के साथ एक आध्यात्मिक यात्रा पर
+          निकलें। वैष्णो देवी के पवित्र माहौल की गूंज को समर्पित, प्रत्येक
+          प्रसाद सकारात्मक ऊर्जा का संचार करता है और भक्ति का प्रतीक है। इन
+          पवित्र धरोहरों के माध्यम से अपने आध्यात्मिक स्थान को ऊँचा करें और
+          दिव्य से जुड़ने का अनुभव करें।.
         </div>
         <div className="buttontocart">
           <button
@@ -66,6 +66,6 @@ const ProductDisplay = (props) => {
       </div>
     </div>
   );
-}
+};
 
-export default ProductDisplay
+export default ProductDisplay;

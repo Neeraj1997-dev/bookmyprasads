@@ -1,48 +1,49 @@
-import React from 'react'
-import './Footer.css'
-import footer_logo from '../Assets/logo_big.png'
-import instagram_icon from '../Assets/instagram_icon.png'
-import pinterest_icon from '../Assets/pintester_icon.png'
-import whatsapp_icon from '../Assets/whatsapp_icon.png'
-import facebook_icon from '../Assets/facebook_icon.jpg'
-import { Link } from 'react-router-dom'
- 
+import React from "react";
+import "./Footer.css";
+import footer_logo from "../Assets/logo_big.png";
+import instagram_icon from "../Assets/instagram_icon.png";
+import pinterest_icon from "../Assets/pintester_icon.png";
+import whatsapp_icon from "../Assets/whatsapp_icon.png";
+import facebook_icon from "../Assets/facebook_icon.jpg";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className="footer">
       <Link style={{ textDecoration: "none" }} to="/Services">
         <div className="footer-logo">
           <img src={footer_logo} alt="" />
-          <p>BookMyPrasad</p>
+          <p>प्रसाद बुक करें</p>
         </div>
       </Link>
       <ul className="footer-links">
-        <a href="" target="#">
-          <li>Company</li>
+        <a href="" target="">
+          <li>कंपनी</li>
         </a>
         <li>
           <Link style={{ textDecoration: "none" }} to="/productpage">
-            Products
-          </Link>
-        </li>
-        <li><Link style={{ textDecoration: "none" }} to="/About">About</Link></li>
-        <li>
-          <Link style={{ textDecoration: "none" }} to="/Contact">
-            Help
+            प्रसाद
           </Link>
         </li>
         <li>
+          <Link style={{ textDecoration: "none" }} to="/About">
+            संबंधित
+          </Link>
+        </li>
+        <li>
           <Link style={{ textDecoration: "none" }} to="/Contact">
-            Contact
+            सहायता
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/Contact">
+            संपर्क करें
           </Link>
         </li>
       </ul>
       <div className="footer-social-icon">
         <div className="footer-icons-container">
-          <a
-            href=""
-            target="#"
-          >
+          <a href="" target="#">
             <img src={instagram_icon} alt="" />
           </a>
         </div>
@@ -52,10 +53,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-icons-container">
-          <a
-            href=""
-            target="#"
-          >
+          <a href="" target="#">
             <img src={facebook_icon} alt="" />
           </a>
         </div>
@@ -71,10 +69,10 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
         <hr />
-        <p>Copyright @ 2024 - All Right Reserved.</p>
+        <p>कॉपीराइट @ 2024 - सर्वाधिकार सुरक्षित।</p>
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;

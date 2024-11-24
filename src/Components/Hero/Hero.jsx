@@ -10,13 +10,13 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-left">
-        <h2>Divine Blessings Delivered to your Doorstep!</h2>
+        <h2>दिव्य आशीर्वाद आपके द्वार तक!</h2>
         <div>
-          <p>Pure, fresh and sacred: Our Vaishno Devi Prasad</p>
+          <p>शुद्ध, ताजा और पवित्र—हमारा वैष्णो देवी प्रसाद दिव्यता का प्रतीक है।</p>
         </div>
         <Link style={{ textDecoration: "none" }} to="/productpage">
           <div className="order-now-btn">
-            <div>Order Now</div>
+            <div>अभी ऑर्डर करें</div>
             <img src={arrow_icon} alt="arrow-icon" />
           </div>
         </Link>

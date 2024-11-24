@@ -14,7 +14,7 @@ const Navbar = () => {
       <Link style={{ textDecoration: "none" }} to="/Services">
         <div className="nav-logo">
           <img src={logo} alt="logo_img" />
-          <p>BookMyPrasad</p>
+          <p>प्रसाद बुक करें</p>
         </div>
       </Link>
       <ul className="nav-menu">
@@ -24,7 +24,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/">
-            Home
+            होम
           </Link>
           {menu === "Home" ? <hr /> : <></>}
         </li>
@@ -34,7 +34,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/About">
-            About
+          संबंधित
           </Link>
           {menu === "About" ? <hr /> : <></>}
         </li>
@@ -44,7 +44,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/productpage">
-            Products
+           प्रसाद
           </Link>
           {menu === "Services" ? <hr /> : <></>}
         </li>
@@ -54,7 +54,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/Contact">
-            Contact Us
+          संपर्क करें
           </Link>
           {menu === "Contact Us" ? <hr /> : <></>}
         </li>

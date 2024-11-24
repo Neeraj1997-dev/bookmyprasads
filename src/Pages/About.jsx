@@ -1,84 +1,80 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
     <div className="thankyou">
       <div className="container-info">
-        <h2>Our Divine Journey:</h2>
+        <h2>हमारी दिव्य यात्रा:</h2>
         <p>
-          At BookMyPrasad, we embark on a sacred journey to connect devotees
-          with the divine blessings of Vaishno Devi. Our story is woven with
-          threads of faith, tradition, and a deep commitment to bring the
-          spiritual experience of Vaishno Devi directly to your doorstep.
+          प्रसाद बुक करें पर, हम भक्तों को वैष्णो देवी के दिव्य आशीर्वाद से जोड़ने की
+          एक पवित्र यात्रा पर हैं। हमारी कहानी विश्वास, परंपरा, और वैष्णो देवी के
+          आध्यात्मिक अनुभव को सीधे आपके द्वार तक लाने के लिए गहरी प्रतिबद्धता से
+          बुनी गई है।
         </p>
       </div>
       <div className="container-info">
-        <h2>Roots in Tradition:</h2>
+        <h2>परंपरा में हमारी जड़ें:</h2>
         <p>
-          Inspired by the rich traditions of our culture, BookMyPrasad is a
-          labor of love that grew from a simple idea — to make the sacred prasad
-          of Vaishno Devi accessible to everyone, irrespective of geographical
-          boundaries.
+          हमारी संस्कृति की समृद्ध परंपराओं से प्रेरित, प्रसाद बुक करें एक प्यार
+          भरा प्रयास है जो एक सरल विचार से शुरू हुआ — वैष्णो देवी के पवित्र
+          प्रसाद को हर किसी तक पहुँचाना, भले ही वे कहीं भी हों।
         </p>
       </div>
       <div className="container-info">
-        <h2>A Commitment to Purity:</h2>
+        <h2>शुद्धता के प्रति हमारी प्रतिबद्धता:</h2>
         <p>
-          We understand the sacredness of prasad and uphold the highest
-          standards of purity in our offerings. Each prasad pack is carefully
-          curated and packed with devotion, ensuring that you receive the divine
-          blessings in its purest form.
+          हम प्रसाद की पवित्रता को समझते हैं और अपने प्रसाद में शुद्धता के उच्चतम
+          मानकों का पालन करते हैं। हर प्रसाद पैक को बड़ी सावधानी और भक्ति के साथ
+          तैयार किया जाता है, ताकि आपको सबसे पवित्र रूप में दिव्य आशीर्वाद मिले।
         </p>
       </div>
       <div className="container-info">
-        <h2>Environmental Responsibility:</h2>
+        <h2>पर्यावरणीय जिम्मेदारी:</h2>
         <p>
-          Our commitment to the environment is as strong as our devotion. We use
-          eco-friendly packaging to ensure that our service aligns with the
-          values of sustainability and respect for Mother Earth.
+          पर्यावरण के प्रति हमारी प्रतिबद्धता हमारी भक्ति जितनी ही मजबूत है। हम
+          इको-फ्रेंडली पैकेजिंग का उपयोग करते हैं, ताकि हमारी सेवा स्थिरता और
+          प्रकृति मां के प्रति सम्मान के मूल्यों के अनुरूप हो।
         </p>
       </div>
       <div className="container-info">
-        <h2>Connecting Devotees Worldwide:</h2>
+        <h2>विश्वभर के भक्तों को जोड़ना:</h2>
         <p>
-          Beyond borders and time zones, we strive to create a global community
-          of devotees who can experience the grace of Vaishno Devi in the
-          comfort of their homes. BookMyPrasad is not just a service; it's a
-          bridge that connects hearts with the divine.
+          सीमाओं और समय क्षेत्रों से परे, हम एक वैश्विक समुदाय बनाने का प्रयास करते
+          हैं, जहां भक्त वैष्णो देवी की कृपा अपने घरों में अनुभव कर सकें। प्रसाद
+          बुक करें केवल एक सेवा नहीं है; यह दिलों को दिव्य से जोड़ने का एक सेतु है।
         </p>
       </div>
       <div className="container-info">
-        <h2> Customer-Centric Approach:</h2>
+        <h2>ग्राहक-केंद्रित दृष्टिकोण:</h2>
         <p>
-          Your satisfaction is at the core of our mission. Our customer support
-          team is dedicated to ensuring a seamless and joyous experience for
-          you. Feel free to reach out; we're here to serve you with the utmost
-          care.
+          आपकी संतुष्टि हमारे मिशन का केंद्र है। हमारी ग्राहक सेवा टीम आपको
+          सहज और आनंदमय अनुभव प्रदान करने के लिए समर्पित है। यदि आपको कोई सहायता
+          चाहिए, तो हमसे संपर्क करें; हम आपकी सेवा में हर समय तैयार हैं।
         </p>
       </div>
       <div className="container-info">
-        <h2>Join Us on this Spiritual Journey:</h2>
+        <h2>इस आध्यात्मिक यात्रा में हमारे साथ जुड़ें:</h2>
         <p>
-          Whether you are a devout follower or a curious seeker, we invite you
-          to join us on this spiritual journey. BookMyPrasad is more than a
-          service; it's a community united by faith, love, and the pursuit of
-          divine blessings.
+          चाहे आप एक श्रद्धालु अनुयायी हों या जिज्ञासु साधक, हम आपको इस आध्यात्मिक
+          यात्रा में हमारे साथ जुड़ने के लिए आमंत्रित करते हैं। प्रसाद बुक करें
+          केवल एक सेवा नहीं है; यह एक ऐसा समुदाय है जो विश्वास, प्रेम, और दिव्य
+          आशीर्वाद की खोज से एकजुट है।
         </p>
       </div>
       <div className="container-info">
-        <h2>May Your Journey Be Blessed:</h2>
+        <h2>आपकी यात्रा शुभ हो:</h2>
         <p>
-          As you explore the offerings on our platform, may your journey be
-          filled with the divine energy of Vaishno Devi. Thank you for choosing
-          BookMyPrasad as your companion on this sacred path.
+          जैसे ही आप हमारे प्लेटफॉर्म की पेशकशों का पता लगाते हैं, आपकी यात्रा
+          वैष्णो देवी की दिव्य ऊर्जा से भरपूर हो। इस पवित्र मार्ग पर आपके साथी
+          के रूप में प्रसाद बुक करें को चुनने के लिए धन्यवाद।
         </p>
         <Link style={{ textDecoration: "none" }} to="/productpage">
-          <div className="order-now-btn-1">Explore Our Prasad</div>
+          <div className="order-now-btn-1">हमारा प्रसाद देखें</div>
         </Link>
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;

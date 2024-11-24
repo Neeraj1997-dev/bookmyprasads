@@ -1,21 +1,21 @@
-import React from 'react'
-import './CSS/Contact.css'
+import React from 'react';
+import './CSS/Contact.css';
 
 const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-container">
-        <h1>Contact Us</h1>
+        <h1>संपर्क करें</h1>
         <div className="loginsignup-fields">
-          <input type="text" placeholder="Your Name" />
-          <input type="email" placeholder="Email Address" />
-          <input type="text" placeholder="Mobile No." />
-          <input type="text" placeholder="Write Your Query" />
+          <input type="text" placeholder="आपका नाम" />
+          <input type="email" placeholder="ईमेल पता" />
+          <input type="text" placeholder="मोबाइल नंबर" />
+          <input type="text" placeholder="अपनी समस्या लिखें" />
         </div>
-        <button>Continue</button>
+        <button>जारी रखें</button>
       </div>
     </div>
   );
 }
 
-export default Contact
+export default Contact;

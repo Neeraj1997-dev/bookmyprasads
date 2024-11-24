@@ -27,7 +27,7 @@ const DeliveryAddress = () => {
     e.preventDefault();
 
     try{
-      const response = await fetch('https://v1.nocodeapi.com/aman_2001/google_sheets/NjrVMaysupEnxHBN?tabId=Sheet1',{
+      const response = await fetch('https://v1.nocodeapi.com/neeraj/google_sheets/NjrVMaysupEnxHBN?tabId=Sheet1',{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -46,57 +46,58 @@ const DeliveryAddress = () => {
   return (
     <div className="loginsignup">
       <div className="loginsignup-container">
-        <h1>Your Address</h1>
+        <h1>अपना पता दर्ज करें</h1>
         <div className="loginsignup-fields">
           <input
             name="name"
             type="text"
-            placeholder="Your Name"
+            placeholder="आपका नाम"
             value={name}
             onChange={handleChange}
           />
           <input
             name="email"
             type="email"
-            placeholder="Email Address"
+            placeholder="ईमेल पता"
             value={email}
             onChange={handleChange}
           />
           <input
             name="address"
             type="text"
-            placeholder="Your Address"
+            placeholder="आपका पता"
             value={address}
             onChange={handleChange}
           />
           <input
             name="state"
             type="text"
-            placeholder="Your State"
+            placeholder="आपका राज्य"
             value={state}
             onChange={handleChange}
           />
           <input
             name="pin"
             type="number"
-            placeholder="PIN CODE"
+            placeholder="पिन कोड"
             value={pin}
             onChange={handleChange}
           />
           <input
             name="phone"
             type="number"
-            placeholder="Phone Number"
+            placeholder="फ़ोन नंबर"
             value={phone}
             onChange={handleChange}
           />
         </div>
         <Link style={{ textDecoration: "none" }} to="/thankyou">
-          <button onClick={handleSubmit}>BOOK NOW</button>
+          <button onClick={handleSubmit}>बुक करें</button>
         </Link>
       </div>
     </div>
   );
+  
 }
 
 export default DeliveryAddress
