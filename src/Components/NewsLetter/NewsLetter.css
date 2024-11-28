@@ -126,8 +126,13 @@
 
 /* Small Mobile View */
 @media only screen and (max-width: 480px) {
+  .newsletter {
+    padding: 25px 10px;
+    gap: 8px;
+  }
+
   .newsletter h1 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .newsletter p {
@@ -138,8 +143,43 @@
     height: 45px;
   }
 
+  .newsletter input {
+    font-size: 12px;
+    padding: 0 15px;
+  }
+
   .newsletter button {
     font-size: 14px;
     width: 100px;
+  }
+}
+
+/* Extra Small Mobile View */
+@media only screen and (max-width: 375px) {
+  .newsletter {
+    padding: 20px 10px;
+    gap: 6px;
+  }
+
+  .newsletter h1 {
+    font-size: 20px;
+  }
+
+  .newsletter p {
+    font-size: 11px;
+  }
+
+  .newsletter-input-container {
+    height: 40px;
+  }
+
+  .newsletter input {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+
+  .newsletter button {
+    font-size: 13px;
+    width: 90px;
   }
 }
