@@ -12,14 +12,16 @@ const Footer = () => {
     <div className="footer">
       <Link style={{ textDecoration: "none" }} to="/Services">
         <div className="footer-logo">
-          <img src={footer_logo} alt="" />
+          <img src={footer_logo} alt="Footer Logo" />
           <p>प्रसाद बुक करें</p>
         </div>
       </Link>
       <ul className="footer-links">
-        <a href="" target="">
-          <li>कंपनी</li>
-        </a>
+        <li>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            कंपनी
+          </a>
+        </li>
         <li>
           <Link style={{ textDecoration: "none" }} to="/productpage">
             प्रसाद
@@ -43,18 +45,18 @@ const Footer = () => {
       </ul>
       <div className="footer-social-icon">
         <div className="footer-icons-container">
-          <a href="" target="#">
-            <img src={instagram_icon} alt="" />
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src={instagram_icon} alt="Instagram Icon" />
           </a>
         </div>
         <div className="footer-icons-container">
-          <a href="https://pin.it/4nMRMF1" target="#">
-            <img src={pinterest_icon} alt="" />
+          <a href="https://pin.it/4nMRMF1" target="_blank" rel="noopener noreferrer">
+            <img src={pinterest_icon} alt="Pinterest Icon" />
           </a>
         </div>
         <div className="footer-icons-container">
-          <a href="" target="#">
-            <img src={facebook_icon} alt="" />
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src={facebook_icon} alt="Facebook Icon" />
           </a>
         </div>
         <div className="footer-icons-container">
@@ -63,7 +65,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={whatsapp_icon} alt="" />
+            <img src={whatsapp_icon} alt="WhatsApp Icon" />
           </a>
         </div>
       </div>
