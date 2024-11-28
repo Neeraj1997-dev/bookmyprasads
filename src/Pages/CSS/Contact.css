@@ -1,61 +1,143 @@
-.contact{
+.contact {
     width: 100%;
-    height: 80vh;
+    height: auto;
     background: #fce3fe;
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 120px; /* Increased for better visibility on mobile */
+    padding-bottom: 120px;
     margin-bottom: 100px;
-}
-.contact-container{
-    width: 580px;
-    height: 620px;
+  }
+  
+  .contact-container {
+    width: 100%;
+    max-width: 580px; /* Added max-width to ensure the container doesn't stretch too wide */
+    height: auto;
     background: white;
     margin: auto;
     padding: 40px 60px;
-}
-.contact-container h1{
-    margin: 20px 0px;
-}
-.loginsignup-fields{
+    box-sizing: border-box;
+    border-radius: 8px; /* Soft rounded corners for a more modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Added a shadow for better contrast */
+  }
+  
+  .contact-container h1 {
+    margin: 20px 0;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #333; /* Darker text color for better contrast */
+  }
+  
+  .loginsignup-fields {
     display: flex;
     flex-direction: column;
-    gap: 29px;
+    gap: 20px;
     margin-top: 30px;
-}
-.loginsignup-fields input{
-    height: 72px;
+  }
+  
+  .loginsignup-fields input {
+    height: 50px;
     width: 100%;
     padding-left: 20px;
     border: 1px solid #c9c9c9;
     outline: none;
     color: #5c5c5c;
-    font-size: 18px;
-}
-.contact-container button{
-    width: 580px;
-    height: 72px;
+    font-size: 16px;
+    border-radius: 4px; /* Rounded input fields */
+  }
+  
+  .loginsignup-fields input:focus {
+    border-color: #ff4141; /* Focus effect to highlight the input field */
+    transition: border-color 0.3s;
+  }
+  
+  .contact-container button {
+    width: 100%;
+    height: 50px;
     color: white;
     background: #ff4141;
     margin-top: 30px;
     border: none;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-}
-@media only screen and (max-width: 768px) {
- .contact-container button{
-    width: 155px;
-    height: 60px;
-    font-size: 18px;
- }
- .contact-container{
-    width: 240px;
- }
- .contact{
-    padding-bottom: 100px;
- }
- .loginsignup-fields input{
-    font-size: 16px;
- }
-}
-
+    border-radius: 4px; /* Rounded button for a more modern look */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .contact-container button:hover {
+    background: #ff2c2c;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .contact-container {
+      width: 90%; /* Adjusted width for smaller screens */
+      padding: 25px; /* Reduced padding to fit smaller screens */
+    }
+  
+    .contact {
+      padding-top: 90px; /* Adjusted for better mobile padding */
+      padding-bottom: 80px; /* Ensured sufficient spacing */
+    }
+  
+    .loginsignup-fields input {
+      font-size: 15px; /* Slightly smaller font-size for better readability */
+    }
+  
+    .contact-container h1 {
+      font-size: 24px; /* Adjusted heading for mobile */
+    }
+  
+    .contact-container button {
+      font-size: 18px;
+      height: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .contact {
+      padding-top: 70px;
+      padding-bottom: 60px;
+    }
+  
+    .contact-container {
+      width: 90%;
+      padding: 15px; /* Reduced padding for very small screens */
+    }
+  
+    .loginsignup-fields input {
+      font-size: 14px; /* Smaller font size for ultra-mobile devices */
+      padding-left: 15px; /* Reduced padding */
+    }
+  
+    .contact-container h1 {
+      font-size: 20px; /* Reduced font-size for very small screens */
+    }
+  
+    .contact-container button {
+      width: 100%;
+      font-size: 16px;
+      height: 45px; /* Smaller button height for small devices */
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .contact-container {
+      width: 40%; /* Adjusted for larger screens like tablets and dashboards */
+      padding: 40px 60px; /* Consistent padding for larger screens */
+    }
+  
+    .contact {
+      padding-top: 120px; /* Consistent top padding for large screens */
+      padding-bottom: 120px; /* Consistent bottom padding */
+    }
+  
+    .contact-container h1 {
+      font-size: 32px; /* Increased font size for better visibility */
+    }
+  
+    .contact-container button {
+      font-size: 20px; /* Larger button text for bigger screens */
+      height: 55px; /* Slightly larger button for a better look on desktops */
+    }
+  }
+  
