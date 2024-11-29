@@ -104,3 +104,104 @@
         font-size: 14px;
     }
 }
+
+/* Additional Mobile Optimization */
+@media only screen and (max-width: 360px) {
+    .thankyou {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .container-info h2 {
+        font-size: 18px;
+    }
+
+    .container-info p {
+        font-size: 13px;
+    }
+
+    .order-now-btn-1 {
+        width: 160px;
+        height: 35px;
+        font-size: 12px;
+    }
+}
+
+/* Dashboard Specific Adjustments */
+@media only screen and (max-width: 1280px) {
+    .thankyou {
+        margin: 20px 60px;
+        padding: 20px 50px;
+    }
+
+    .container-info h2 {
+        font-size: 32px;
+    }
+
+    .container-info p {
+        font-size: 18px;
+    }
+
+    .order-now-btn-1 {
+        width: 260px;
+        height: 55px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .thankyou {
+        margin: 20px;
+        padding: 18px 40px;
+    }
+
+    .container-info h2 {
+        font-size: 30px;
+    }
+
+    .container-info p {
+        font-size: 16px;
+    }
+
+    .order-now-btn-1 {
+        width: 240px;
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+/* Dashboard Elements: Sidebars and Cards */
+@media only screen and (max-width: 1024px) {
+    .dashboard-sidebar {
+        width: 240px;
+    }
+
+    .dashboard-main-content {
+        margin-left: 250px;
+        padding: 20px;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .dashboard-sidebar {
+        width: 200px;
+        display: none;
+    }
+
+    .dashboard-main-content {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 15px;
+    }
+}
