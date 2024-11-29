@@ -1,22 +1,23 @@
+/* Base Styles */
 .contact {
     width: 100%;
     height: auto;
     background: #fce3fe;
-    padding-top: 120px; /* Increased for better visibility on mobile */
+    padding-top: 120px; 
     padding-bottom: 120px;
     margin-bottom: 100px;
   }
   
   .contact-container {
     width: 100%;
-    max-width: 580px; /* Added max-width to ensure the container doesn't stretch too wide */
+    max-width: 580px;
     height: auto;
     background: white;
     margin: auto;
     padding: 40px 60px;
     box-sizing: border-box;
-    border-radius: 8px; /* Soft rounded corners for a more modern look */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Added a shadow for better contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   .contact-container h1 {
@@ -24,7 +25,7 @@
     font-size: 28px;
     font-weight: bold;
     text-align: center;
-    color: #333; /* Darker text color for better contrast */
+    color: #333;
   }
   
   .loginsignup-fields {
@@ -42,11 +43,11 @@
     outline: none;
     color: #5c5c5c;
     font-size: 16px;
-    border-radius: 4px; /* Rounded input fields */
+    border-radius: 4px;
   }
   
   .loginsignup-fields input:focus {
-    border-color: #ff4141; /* Focus effect to highlight the input field */
+    border-color: #ff4141;
     transition: border-color 0.3s;
   }
   
@@ -60,39 +61,15 @@
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-    border-radius: 4px; /* Rounded button for a more modern look */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
   }
   
   .contact-container button:hover {
     background: #ff2c2c;
   }
   
-  @media only screen and (max-width: 768px) {
-    .contact-container {
-      width: 90%; /* Adjusted width for smaller screens */
-      padding: 25px; /* Reduced padding to fit smaller screens */
-    }
-  
-    .contact {
-      padding-top: 90px; /* Adjusted for better mobile padding */
-      padding-bottom: 80px; /* Ensured sufficient spacing */
-    }
-  
-    .loginsignup-fields input {
-      font-size: 15px; /* Slightly smaller font-size for better readability */
-    }
-  
-    .contact-container h1 {
-      font-size: 24px; /* Adjusted heading for mobile */
-    }
-  
-    .contact-container button {
-      font-size: 18px;
-      height: 50px;
-    }
-  }
-  
+  /* Mobile (Up to 480px) */
   @media only screen and (max-width: 480px) {
     .contact {
       padding-top: 70px;
@@ -101,43 +78,77 @@
   
     .contact-container {
       width: 90%;
-      padding: 15px; /* Reduced padding for very small screens */
+      padding: 15px;
     }
   
     .loginsignup-fields input {
-      font-size: 14px; /* Smaller font size for ultra-mobile devices */
-      padding-left: 15px; /* Reduced padding */
+      font-size: 14px;
+      padding-left: 15px;
     }
   
     .contact-container h1 {
-      font-size: 20px; /* Reduced font-size for very small screens */
+      font-size: 20px;
     }
   
     .contact-container button {
       width: 100%;
       font-size: 16px;
-      height: 45px; /* Smaller button height for small devices */
+      height: 45px;
     }
   }
   
-  @media only screen and (min-width: 1024px) {
+  /* Tablet and Smaller Screens (Up to 768px) */
+  @media only screen and (max-width: 768px) {
     .contact-container {
-      width: 40%; /* Adjusted for larger screens like tablets and dashboards */
-      padding: 40px 60px; /* Consistent padding for larger screens */
+      width: 90%;
+      padding: 25px;
     }
   
     .contact {
-      padding-top: 120px; /* Consistent top padding for large screens */
-      padding-bottom: 120px; /* Consistent bottom padding */
+      padding-top: 90px;
+      padding-bottom: 80px;
+    }
+  
+    .loginsignup-fields input {
+      font-size: 15px;
     }
   
     .contact-container h1 {
-      font-size: 32px; /* Increased font size for better visibility */
+      font-size: 24px;
     }
   
     .contact-container button {
-      font-size: 20px; /* Larger button text for bigger screens */
-      height: 55px; /* Slightly larger button for a better look on desktops */
+      font-size: 18px;
+      height: 50px;
+    }
+  }
+  
+  /* Large Screens (1024px and Up) */
+  @media only screen and (min-width: 1024px) {
+    .contact-container {
+      width: 40%;
+      padding: 40px 60px;
+    }
+  
+    .contact {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+  
+    .contact-container h1 {
+      font-size: 32px;
+    }
+  
+    .contact-container button {
+      font-size: 20px;
+      height: 55px;
+    }
+  }
+  
+  /* For very large screens (larger than 1200px) */
+  @media only screen and (min-width: 1200px) {
+    .contact-container {
+      width: 35%; /* Slightly narrower container for larger screens */
     }
   }
   
