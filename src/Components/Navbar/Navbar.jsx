@@ -14,7 +14,7 @@ const Navbar = () => {
       <Link style={{ textDecoration: "none" }} to="/Services">
         <div className="nav-logo">
           <img src={logo} alt="logo_img" />
-          <p>प्रसाद बुक करें</p>
+          <p>प्रसाद ऑर्डर करें</p>
         </div>
       </Link>
       <ul className="nav-menu">

@@ -3,6 +3,7 @@ import p2_img from "./prasad.jpg";
 import p1_img from "./mahakalp.jpeg";
 import p4_img from "./babadham-prasadi.jpg";
 import ramp_img from "./ramp.avif"
+import rugd from "./rug.jpg"
 
 let data_product = [
   {
@@ -38,6 +39,13 @@ let data_product = [
     id: 5,
     name: "गंगोत्री गंगाजल",
     image: p3_img,
+    new_price: 699,
+    old_price: 1249,
+  },
+  {
+    id: 6,
+    name: "रुद्राक्ष माला",
+    image: rugd,
     new_price: 699,
     old_price: 1249,
   },
