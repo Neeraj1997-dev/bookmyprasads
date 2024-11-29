@@ -183,3 +183,35 @@
     width: 90px;
   }
 }
+
+/* Dashboard View */
+@media only screen and (min-width: 1200px) {
+  .newsletter {
+    width: 60%;
+    padding: 60px 30px;
+    gap: 30px;
+  }
+
+  .newsletter h1 {
+    font-size: 48px;
+  }
+
+  .newsletter p {
+    font-size: 20px;
+  }
+
+  .newsletter-input-container {
+    max-width: 800px;
+    height: 70px;
+  }
+
+  .newsletter input {
+    font-size: 18px;
+  }
+
+  .newsletter button {
+    width: 180px;
+    font-size: 18px;
+  }
+}
+
