@@ -36,16 +36,20 @@
   color: #666;
 }
 
+/* Order Now Button Styles */
 .order-now-btn {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px 20px;
+  gap: 8px; /* Reduced gap for a smaller button */
+  padding: 6px 12px; /* Reduced padding */
   background-color: #007bff;
   color: white;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-size: 0.9rem; /* Reduced font size */
+  white-space: nowrap; /* Prevent text break */
+  min-width: 150px; /* Set a consistent minimum width */
 }
 
 .order-now-btn:hover {
@@ -58,6 +62,10 @@
 }
 
 /* Individual temple styles */
+.hero-section.ram {
+  background-color: #fff8e1;
+}
+
 .hero-section.vaishno {
   background-color: #fff8e1;
 }
@@ -96,8 +104,9 @@
 
   .order-now-btn {
     justify-content: center;
-    font-size: 1rem;
-    padding: 10px 18px;
+    font-size: 0.9rem;
+    padding: 6px 12px; /* Smaller padding for tablet views */
+    min-width: 150px;
   }
 
   .hero-right img {
@@ -123,8 +132,9 @@
   }
 
   .order-now-btn {
-    padding: 8px 15px;
-    font-size: 0.9rem;
+    padding: 6px 12px;
+    font-size: 0.85rem; /* Slightly smaller font size */
+    min-width: 140px;
   }
 }
 
@@ -149,8 +159,9 @@
   }
 
   .order-now-btn {
-    padding: 6px 12px;
+    padding: 4px 8px;
     font-size: 0.8rem;
+    min-width: 120px; /* Adjust min-width for smaller screens */
   }
 }
 
@@ -176,6 +187,7 @@
   .order-now-btn {
     padding: 4px 8px;
     font-size: 0.7rem;
+    min-width: 100px; /* Adjust min-width further */
   }
 }
 

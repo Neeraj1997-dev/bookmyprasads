@@ -6,6 +6,7 @@ import arrow_icon from '../Assets/arrow.png';
 import vaishno_img from '../Assets/maa.jpg';
 import baba_dham_img from '../Assets/baba1.avif';
 import mahakal_img from '../Assets/maha.jpg';
+import ram_img from '../Assets/ram.png'
 
 const Hero = () => {
   const temples = [
@@ -15,6 +16,13 @@ const Hero = () => {
       image: vaishno_img,
       link: "/product/1",
       className: "vaishno",
+    },
+    {
+      name: "राम मंदिर, अयोध्या",
+      description: "हमारा राम मंदिर प्रसाद दिव्यता और आध्यात्मिकता का अनुभव है।",    
+      image: ram_img,
+      link: "/product/1",
+      className: "ram",
     },
     {
       name: "बाबा धाम",
