@@ -13,7 +13,7 @@ const Footer = () => {
       <Link style={{ textDecoration: "none" }} to="/Services">
         <div className="footer-logo">
           <img src={footer_logo} alt="Footer Logo" />
-          <p>प्रसाद बुक करें</p>
+          <p style={{ minWidth: "100px" }}>प्रसाद बुक करें</p>
         </div>
       </Link>
       <ul className="footer-links">
@@ -50,7 +50,11 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-icons-container">
-          <a href="https://pin.it/4nMRMF1" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://pin.it/4nMRMF1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={pinterest_icon} alt="Pinterest Icon" />
           </a>
         </div>
