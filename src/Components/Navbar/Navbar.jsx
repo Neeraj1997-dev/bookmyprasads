@@ -1,14 +1,25 @@
-import React, { useContext, useState } from 'react'
-import './Navbar.css'
-import logo from '../Assets/logo.png';
-import cart_icon from '../Assets/cart_icon.png';
-import { Link } from 'react-router-dom';
-import { ShopContext } from '../../Context/ShopContext';
+import React, { useContext, useState } from "react";
+import "./Navbar.css";
+import logo from "../Assets/logo.png";
+import cart_icon from "../Assets/cart_icon.png";
+import { Link, useLocation } from "react-router-dom";
+import { ShopContext } from "../../Context/ShopContext";
 
 const Navbar = () => {
-    
-    const{getTotalCartItems} = useContext(ShopContext)
-    const [menu,setMenu] = useState("Home");
+  const location = useLocation();
+  const { getTotalCartItems } = useContext(ShopContext);
+  const [menu, setMenu] = useState(
+    location.pathname === "/"
+      ? "Home"
+      : location.pathname === "/About"
+      ? "About"
+      : location.pathname === "/productpage"
+      ? "Services"
+      : location.pathname === "/Contact"
+      ? "Contact Us"
+      : ""
+  );
+
   return (
     <div className="navbar">
       <Link style={{ textDecoration: "none" }} to="/Services">
@@ -34,7 +45,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/About">
-          संबंधित
+            संबंधित
           </Link>
           {menu === "About" ? <hr /> : <></>}
         </li>
@@ -44,7 +55,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/productpage">
-           प्रसाद
+            प्रसाद
           </Link>
           {menu === "Services" ? <hr /> : <></>}
         </li>
@@ -54,7 +65,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/Contact">
-          संपर्क करें
+            संपर्क करें
           </Link>
           {menu === "Contact Us" ? <hr /> : <></>}
         </li>
@@ -71,6 +82,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
